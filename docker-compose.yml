@@ -7,11 +7,11 @@ services:
     image: postgres:alpine
     restart: always
     environment:
-      POSTGRES_USER: fernandakipper
+      POSTGRES_USER: gabrielribas
       POSTGRES_PASSWORD: password
       POSTGRES_DB: product
     ports:
-      - "5432:5432"
+      - "5433:5432"
     networks:
       - postgres-compose-network
 
